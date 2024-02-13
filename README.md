@@ -88,7 +88,7 @@ Specifically, instantiated `ArrayIndex` objects are assigned a unique identifier
 To use in Observable,
 
 ```javascript
-ArrayIndex = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@umd/browser.js' )
+ArrayIndex = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -100,7 +100,7 @@ var ArrayIndex = require( 'path/to/vendor/umd/array-index/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-index@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -439,7 +439,7 @@ var o = idx.toJSON();
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-index@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
