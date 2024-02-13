@@ -47,7 +47,7 @@
     "@stdlib/assert-is-collection": "^0.1.0",
     "@stdlib/assert-is-integer": "^0.1.0",
     "@stdlib/assert-is-plain-object": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/types": "^0.3.1",
     "@stdlib/utils-define-nonenumerable-property": "^0.1.1",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.1.1",
