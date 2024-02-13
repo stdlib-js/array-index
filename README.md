@@ -86,7 +86,7 @@ Specifically, instantiated `ArrayIndex` objects are assigned a unique identifier
 ## Usage
 
 ```javascript
-import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@esm/index.mjs';
+import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.1.0-esm/index.mjs';
 ```
 
 <a name="main"></a>
@@ -417,7 +417,7 @@ var o = idx.toJSON();
 
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
 import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
-import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@esm/index.mjs';
+import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.1.0-esm/index.mjs';
 
 var x = new Uint8Array( [ 1, 0, 1, 0 ] );
 var i = new ArrayIndex( x );
