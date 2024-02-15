@@ -55,7 +55,8 @@
     "@stdlib/utils-linked-list": "^0.2.0"
   },
   "devDependencies": {
-    "@stdlib/array-base-to-accessor-array": "^0.1.0",
+    "@stdlib/array-base-to-accessor-array": "^0.2.0",
+    "@stdlib/array-float64": "^0.2.0",
     "@stdlib/array-int32": "^0.2.0",
     "@stdlib/array-uint8": "^0.2.0",
     "@stdlib/assert-instance-of": "^0.2.0",
