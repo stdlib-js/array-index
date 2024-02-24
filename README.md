@@ -381,7 +381,7 @@ var o = idx.toJSON();
 
     ```javascript
     var Uint8Array = require( '@stdlib/array-uint8' );
-    
+
     var data = new Uint8Array( [ 1, 0, 0, 0 ] );
     var idx = new ArrayIndex( data );
 
@@ -398,7 +398,7 @@ var o = idx.toJSON();
 
     ```javascript
     var Uint8Array = require( '@stdlib/array-uint8' );
-    
+
     var data = new Uint8Array( [ 1, 0, 0, 0 ] );
     var idx = new ArrayIndex( data );
 
@@ -484,6 +484,12 @@ console.log( 'Type: %s. Data type: %s.', o.type, o.dtype );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-to-fancy`][@stdlib/array/to-fancy]</span><span class="delimiter">: </span><span class="description">convert an array to an object supporting fancy indexing.</span>
 
 </section>
 
