@@ -86,6 +86,11 @@ Specifically, instantiated `ArrayIndex` objects are assigned a unique identifier
 ## Usage
 
 ```javascript
+import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-index/tags). For example,
+
+```javascript
 import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.2.1-esm/index.mjs';
 ```
 
@@ -417,7 +422,7 @@ var o = idx.toJSON();
 
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
 import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
-import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.2.1-esm/index.mjs';
+import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@esm/index.mjs';
 
 var x = new Uint8Array( [ 1, 0, 1, 0 ] );
 var i = new ArrayIndex( x );
