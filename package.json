@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-index",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Array index constructor.",
   "license": "Apache-2.0",
   "author": {
@@ -37,22 +37,23 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-is-accessor-array": "^0.2.0",
-    "@stdlib/array-base-copy": "^0.2.0",
+    "@stdlib/array-base-assert-is-accessor-array": "^0.2.1",
+    "@stdlib/array-base-copy": "^0.2.1",
     "@stdlib/array-base-resolve-getter": "^0.2.0",
-    "@stdlib/array-dtype": "^0.2.0",
-    "@stdlib/array-to-json": "^0.2.0",
+    "@stdlib/array-dtype": "^0.2.1",
+    "@stdlib/array-to-json": "^0.2.1",
     "@stdlib/assert-has-own-property": "^0.2.1",
     "@stdlib/assert-is-boolean": "^0.2.1",
-    "@stdlib/assert-is-collection": "^0.2.0",
-    "@stdlib/assert-is-integer": "^0.2.0",
+    "@stdlib/assert-is-collection": "^0.2.1",
+    "@stdlib/assert-is-integer": "^0.2.1",
     "@stdlib/assert-is-plain-object": "^0.2.1",
     "@stdlib/string-format": "^0.2.1",
     "@stdlib/types": "^0.3.2",
     "@stdlib/utils-define-nonenumerable-property": "^0.2.1",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
-    "@stdlib/utils-linked-list": "^0.2.1"
+    "@stdlib/utils-linked-list": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-base-to-accessor-array": "^0.2.0",
@@ -64,7 +65,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.0"
+    "@stdlib/bench-harness": "^0.2.1"
   },
   "engines": {
     "node": ">=0.10.0",
