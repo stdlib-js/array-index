@@ -79,19 +79,32 @@ Specifically, instantiated `ArrayIndex` objects are assigned a unique identifier
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-index
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-index/tags). For example,
-
-```javascript
-import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.2.1-esm/index.mjs';
+var ArrayIndex = require( '@stdlib/array-index' );
 ```
 
 <a name="main"></a>
@@ -168,7 +181,7 @@ var str = ArrayIndex.name;
 **Read-only** property returning the underlying array associated with an `ArrayIndex` instance.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ) );
 // returns <ArrayIndex>
@@ -184,7 +197,7 @@ var v = idx.data;
 **Read-only** property returning the data type of the underlying array associated with an `ArrayIndex` instance.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ) );
 // returns <ArrayIndex>
@@ -200,7 +213,7 @@ var dt = idx.dtype;
 **Read-only** property returning the unique identifier associated with an `ArrayIndex` instance.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ) );
 // returns <ArrayIndex>
@@ -218,7 +231,7 @@ The identifier should be used by `ArrayIndex` consumers to resolve the underlyin
 **Read-only** property returning a boolean indicating whether an `ArrayIndex` instance is actively cached.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ) );
 // returns <ArrayIndex>
@@ -234,7 +247,7 @@ var out = idx.isCached;
 **Read-only** property returning the array index type.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ) );
 // returns <ArrayIndex>
@@ -260,7 +273,7 @@ The following array index types are supported:
 Frees the `ArrayIndex` associated with a provided identifier.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ), {
     'persist': true
@@ -282,7 +295,7 @@ Once an `ArrayIndex` is freed, the instance is invalid and can no longer be used
 Returns the array associated with the `ArrayIndex` having a provided identifier.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ), {
     'persist': true
@@ -319,7 +332,7 @@ If the `ArrayIndex` associated with a provided identifier was not explicitly per
 Serializes an `ArrayIndex` as a string.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ) );
 // returns <ArrayIndex>
@@ -337,7 +350,7 @@ An `ArrayIndex` is intended to be an opaque object used by objects supporting "f
 Serializes an `ArrayIndex` as a [JSON][json] object.
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var idx = new ArrayIndex( new Uint8Array( [ 1, 0, 1, 0 ] ) );
 // returns <ArrayIndex>
@@ -367,7 +380,7 @@ var o = idx.toJSON();
 -   Because non-persisted `ArrayIndex` instances are freed after first use, in order to avoid holding onto memory and to allow garbage collection, one should avoid scenarios in which an `ArrayIndex` is never used. For example,
 
     ```javascript
-    import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+    var Uint8Array = require( '@stdlib/array-uint8' );
 
     var data = new Uint8Array( [ 1, 0, 0, 0 ] );
     var idx = new ArrayIndex( data );
@@ -384,7 +397,7 @@ var o = idx.toJSON();
     will leak memory as `idx` is only consumed within an `if` block which never evaluates. In such scenarios, one should either refactor to avoid inadvertently holding onto memory or explicitly free the `ArrayIndex`. 
 
     ```javascript
-    import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+    var Uint8Array = require( '@stdlib/array-uint8' );
 
     var data = new Uint8Array( [ 1, 0, 0, 0 ] );
     var idx = new ArrayIndex( data );
@@ -414,15 +427,10 @@ var o = idx.toJSON();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
-import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@esm/index.mjs';
+```javascript
+var Uint8Array = require( '@stdlib/array-uint8' );
+var Int32Array = require( '@stdlib/array-int32' );
+var ArrayIndex = require( '@stdlib/array-index' );
 
 var x = new Uint8Array( [ 1, 0, 1, 0 ] );
 var i = new ArrayIndex( x );
@@ -459,10 +467,6 @@ o = ArrayIndex.get( i.id );
 // returns {...}
 
 console.log( 'Type: %s. Data type: %s.', o.type, o.dtype );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -500,7 +504,7 @@ console.log( 'Type: %s. Data type: %s.', o.type, o.dtype );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -530,8 +534,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-index.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-index
 
-[test-image]: https://github.com/stdlib-js/array-index/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/array-index/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/array-index/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-index/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-index/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-index?branch=main
@@ -565,9 +569,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [json]: http://www.json.org/
 
-[@stdlib/array/to-fancy]: https://github.com/stdlib-js/array-to-fancy/tree/esm
+[@stdlib/array/to-fancy]: https://github.com/stdlib-js/array-to-fancy
 
-[@stdlib/proxy/ctor]: https://github.com/stdlib-js/proxy-ctor/tree/esm
+[@stdlib/proxy/ctor]: https://github.com/stdlib-js/proxy-ctor
 
 </section>
 
