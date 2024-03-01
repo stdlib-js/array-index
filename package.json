@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.1",
     "@stdlib/array-base-copy": "^0.2.1",
-    "@stdlib/array-base-resolve-getter": "^0.2.0",
+    "@stdlib/array-base-resolve-getter": "^0.2.1",
     "@stdlib/array-dtype": "^0.2.1",
     "@stdlib/array-to-json": "^0.2.1",
     "@stdlib/assert-has-own-property": "^0.2.1",
@@ -56,7 +56,7 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/array-base-to-accessor-array": "^0.2.0",
+    "@stdlib/array-base-to-accessor-array": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/array-int32": "^0.2.1",
     "@stdlib/array-uint8": "^0.2.1",
