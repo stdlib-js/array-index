@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-05)
+## Unreleased (2024-06-18)
 
 <section class="features">
 
 ### Features
 
+-   [`b834046`](https://github.com/stdlib-js/stdlib/commit/b834046b3c0a54c0eccf7b6abc393402093d0398) - add boolean array support
 -   [`96e896a`](https://github.com/stdlib-js/stdlib/commit/96e896a39be08912b2e06dfb6b671ec13d042412) - add support for boolean array indices
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`b834046`](https://github.com/stdlib-js/stdlib/commit/b834046b3c0a54c0eccf7b6abc393402093d0398) - **feat:** add boolean array support _(by Athan Reines)_
 -   [`96e896a`](https://github.com/stdlib-js/stdlib/commit/96e896a39be08912b2e06dfb6b671ec13d042412) - **feat:** add support for boolean array indices _(by Athan Reines)_
 
 </details>

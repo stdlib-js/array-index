@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-to-accessor-array": "^0.2.1",
+    "@stdlib/array-bool": "github:stdlib-js/array-bool#main",
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/array-int32": "^0.2.1",
     "@stdlib/array-uint8": "^0.2.1",
