@@ -86,6 +86,11 @@ Specifically, instantiated `ArrayIndex` objects are assigned a unique identifier
 ## Usage
 
 ```javascript
+import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-index/tags). For example,
+
+```javascript
 import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.3.0-deno/mod.js';
 ```
 
@@ -413,7 +418,7 @@ var o = idx.toJSON();
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
 import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@deno/mod.js';
 import BooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-bool@deno/mod.js';
-import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@v0.3.0-deno/mod.js';
+import ArrayIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-index@deno/mod.js';
 
 var x = new Uint8Array( [ 1, 0, 1, 0 ] );
 var i = new ArrayIndex( x );
