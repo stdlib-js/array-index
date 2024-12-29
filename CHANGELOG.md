@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-28)
+## Unreleased (2024-12-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`08a93ce`](https://github.com/stdlib-js/stdlib/commit/08a93ce0f545c4aaf6e1edbcd87b7c3db7338899) - **docs:** update copy _(by Athan Reines)_
 -   [`ee9e2f6`](https://github.com/stdlib-js/stdlib/commit/ee9e2f626dd923fb411410872c69104ff8fa4f88) - **docs:** fix missing annotation _(by Athan Reines)_
 -   [`feaea9b`](https://github.com/stdlib-js/stdlib/commit/feaea9bf8dbfa4ee372583107972c442109682d6) - **docs:** update descriptions _(by Athan Reines)_
 -   [`a87dccb`](https://github.com/stdlib-js/stdlib/commit/a87dccb53b946b45b57b9a2c6c73ba7ace49d50e) - **docs:** fix description _(by Athan Reines)_
