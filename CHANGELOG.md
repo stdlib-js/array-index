@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-02)
+## Unreleased (2025-02-21)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`01e81a5`](https://github.com/stdlib-js/stdlib/commit/01e81a54c2f1294efe1d199cba7dfc6ac8bb9acf) - **refactor:** update path _(by Athan Reines)_
 -   [`7f25676`](https://github.com/stdlib-js/stdlib/commit/7f256762db37ccfb07db2baeda7f5102df5db96c) - **docs:** fix grammar _(by Athan Reines)_
 -   [`08a93ce`](https://github.com/stdlib-js/stdlib/commit/08a93ce0f545c4aaf6e1edbcd87b7c3db7338899) - **docs:** update copy _(by Athan Reines)_
 -   [`ee9e2f6`](https://github.com/stdlib-js/stdlib/commit/ee9e2f626dd923fb411410872c69104ff8fa4f88) - **docs:** fix missing annotation _(by Athan Reines)_
