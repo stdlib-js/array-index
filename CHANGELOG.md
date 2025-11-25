@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2025-11-25)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`c520b5a`](https://github.com/stdlib-js/stdlib/commit/c520b5a0cae0c85e946f8a646e7cc8c01b3b5673) - **docs:** address TSDoc lint errors and add doctest aliases _(by Philipp Burckhardt)_
 -   [`0f7607a`](https://github.com/stdlib-js/stdlib/commit/0f7607a1d5bc88b5ee38d5091725678eafd304f6) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`01e81a5`](https://github.com/stdlib-js/stdlib/commit/01e81a54c2f1294efe1d199cba7dfc6ac8bb9acf) - **refactor:** update path _(by Athan Reines)_
 -   [`7f25676`](https://github.com/stdlib-js/stdlib/commit/7f256762db37ccfb07db2baeda7f5102df5db96c) - **docs:** fix grammar _(by Athan Reines)_
