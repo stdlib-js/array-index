@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-18)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b241151`](https://github.com/stdlib-js/stdlib/commit/b241151321d4ccfe331d708cd47c384bd1359032) - **bench:** refactor to use string interpolation in `array/index` [(#10336)](https://github.com/stdlib-js/stdlib/pull/10336) _(by Shubham)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Shubham
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
