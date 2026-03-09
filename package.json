@@ -48,7 +48,7 @@
     "@stdlib/assert-is-integer": "^0.2.3",
     "@stdlib/assert-is-plain-object": "^0.2.3",
     "@stdlib/dstructs-linked-list": "^0.1.1",
-    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-property": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.4",
