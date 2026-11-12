@@ -18,7 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 import { GenericBooleanIndexArray, GenericIntegerIndexArray, IndexArray, MaskArrayIndex, BooleanArrayIndex, Int32ArrayIndex, GenericBooleanArrayIndex, GenericIntegerArrayIndex, ArrayIndex, BaseIndexArrayObject, IndexArrayObject, BooleanArray } from '@stdlib/types/array';
 
